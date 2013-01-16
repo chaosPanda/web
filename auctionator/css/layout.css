@@ -1,0 +1,12 @@
+form.search {
+	width: 300px;
+	margin: 250px auto;
+}
+
+form.search input {
+	width: 300px;
+	height: 40px;
+	border: 2px solid #ccc;
+	font-size: 25px;
+	color: #424242;
+}

@@ -1,0 +1,571 @@
+body {
+  color            : #000000;
+  font-family      : arial, sans-serif;
+  font-size        : 12px;
+  margin-top       : 20px;
+  margin-bottom    : 20px;
+  padding          : 0px;
+  background       : #FFFFFF;
+}
+
+td, tr, p, div {
+  font-family      : Arial, Helvetica, sans-serif;
+  font-size        : 12px;
+  color            : #000000;
+}
+
+.main { 
+  float            : left; 
+  width            : 100%;
+  margin           : 0px; 
+  padding          : 0px;
+}
+
+.contentdescription { 
+  width            : auto !important;
+  display          : block;
+}
+
+.sublevel {
+  padding-left     : 10px;
+}
+
+.leftrow {
+  width            : 168px;
+  margin-right     : 5px;
+}
+
+.rightrow {
+  width            : 168px;
+  margin-left      : 5px;
+}
+
+table.moduletable {
+  table-layout	   : auto;
+  color 		   : #FFFFFF;
+}
+
+table.moduletable th {
+  font-size        : 13px;
+  font-weight      : bold;
+  text-transform   : uppercase;
+  text-indent      : 8px;
+  letter-spacing   : 2px;
+  padding-top      : 5px;
+  color            : #000000;
+  text-align       : center;
+  border-bottom    : 1px solid #ffffff;
+}
+
+table.moduletable td {
+  padding-left     : 0px;
+  padding-right    : 20px;
+}
+  
+#search {
+  float            : left;
+  margin-top       : 5px;
+  border           : 1px solid #cccccc;
+  padding          : 0px;
+  width´           : 123px !important;
+  width            : 125px;
+  height           : 16px !important;
+  height           : 16px;
+  overflow         : hidden;
+}
+
+#search .inputbox {
+  border           : 0px;
+  margin-top       : 0px;
+  padding          : 2px 3px 2px 6px !important;
+  padding          : 0px 3px 2px 6px;
+  font-family      : arial, helvetica, sans-serif;
+  font-size        : 10px;
+  height           : 12px !important;
+  height           : 12px;
+  width            : 123px !important;
+  width            : 125px;
+  color            : #666666;
+  background       : #FFFFFF;
+}
+
+.back_button {
+  color            : #000000;
+  font-family      : Tahoma, Verdana, Arial, Helvetica, sans-serif;
+  font-size        : 11px;
+  white-space      : normal;
+  font-weight      : normal;
+  padding-bottom   : 4px;
+  padding-top      : 1px;
+  margin-right     : 10px;
+  float            : right;
+  font-weight      : normal;
+  line-height      : 10px;
+  text-decoration  : none; 
+  text-align:left;
+}
+
+.inputbox {
+  border           : 1px solid #BCB778;
+  background-color : #CDDDF6;
+  margin-bottom    : 5px;
+  color			   : #000000;
+}
+
+.sectiontableheader {
+  font-size        : 11px;
+  font-weight      : normal;
+  text-transform   : uppercase;
+  letter-spacing   : 1px;
+  color            : #FFFFFF;
+  border-bottom    : 1px solid #FFFFFF;
+  padding          : 1px;
+}
+
+.sectiontableentry1 {
+  vertical-align   : top;
+  padding          : 3px;
+
+}
+
+.sectiontableentry2 {
+  vertical-align   : top;
+  padding          : 3px;
+
+}
+
+a.mainlevel: {
+  margin           : 0px;
+  font-size        : 12px;
+  text-indent      : 10px;
+}
+
+a.mainlevel: link {
+  font-size        : 12px;
+  width            : 152px;
+  text-indent      : 10px;
+}
+
+a.mainlevel:link, a.mainlevel:visited {
+  display          : block;
+  font-size        : 12px;
+  font-weight      : normal;
+  padding          : 2px -1px 0px 0px;
+  color            : #000000;
+  width            : 152px;
+  text-indent      : 10px;
+  height           : 14px;
+}
+
+a.mainlevel:hover {
+  font-size        : 12px;
+  font-weight      : bold;
+  text-decoration  : none;
+  text-indent      : 10px;
+  color            : #000000;
+}
+
+#active_menu {
+  font-weight      : bold;
+}
+
+a#active_menu:hover {
+  color            : #000000;
+}
+
+a:link, a:visited {
+  font-size        : 11px;
+  color            : #000000;
+  text-decoration  : none;
+  font-weight      : bold;
+}
+
+a:hover {
+  font-size        : 11px;
+  color            : #000000;
+  text-decoration  : none;
+  font-weight      : bold;
+}
+
+a.category:link, a.category:visited {
+  font-size        : 11px;
+  font-weight      : bold;
+}
+
+a.readon:link, a.readon:visited {
+  color            : #000000;
+  font-family      : Tahoma, Verdana, Arial, Helvetica, sans-serif;
+  font-size        : 11px;
+  background-repeat: no-repeat;
+  white-space      : normal;
+  font-weight      : bold;
+  padding-bottom   : 3px;
+  padding-right    : 2px;
+  padding-top      : 1px;
+  float            : left;
+  line-height      : 10px;
+  text-decoration  : none; 
+}
+
+a.readon:hover {
+  color            : #000000;
+  font-family      : Tahoma, Verdana, Arial, Helvetica, sans-serif;
+  font-size        : 11px;
+  background-repeat: no-repeat;
+  white-space      : normal;
+  font-weight      : bold;
+  padding-bottom   : 3px;
+  padding-right    : 2px;
+  padding-top      : 1px;
+  float            : left;
+  line-height      : 10px;
+  text-decoration  : none; 
+}
+
+table.contenttoc {
+  border           : 1px solid #FFFFFF;
+  background       : #150185;
+  padding          : 5px;
+  margin-left      : 2px;
+  margin-bottom    : 2px;
+}
+
+.pagenavcounter {
+  font-size        : 10px;
+  color            : #CC0000;
+}
+
+.pagenavbar {
+  border-top       : 1px solid #BCB778;
+  padding          : 2px;
+}
+
+.pagenav {
+  font-weight      : bold;
+  color            : #FFFFFF;
+}
+
+a.pagenav:link, a.pagenav:visited {
+  text-decoration  : none;
+}
+
+a.pagenav:hover {
+  text-decoration  : none;
+}
+
+#date {
+  font-size        : 10px;
+  color            : #ffffff;
+  padding-bottom   : 80px;
+}
+
+.small {
+  font-size        : 10px;
+  color            : #000000;
+}
+
+.smalldark {
+  font-size        : 10px;
+  color            : #000000;
+}
+
+.createdate, .modifydate {
+  font-size        : 10px;
+  color            : #000000;
+}
+
+.content_vote {
+  font-size        : 10px;
+  height           : 22px;
+  padding-top      : 2px;
+  padding-bottom   : 2px;
+}
+
+.content_rating {
+  font-size        : 12px;
+  color            : #000000;
+}
+
+.pathway {
+  font-size        : 10px;
+  color			   : #000000;
+  padding-left     : 8px;
+}
+
+a.pathway:link, a.pathway:visited {
+  font-size        : 10px;
+  padding-left     : 0px;
+}
+
+a.pathway:hover {
+  font-size        : 10px;
+  padding-left     : 0px;
+}
+
+table.content{
+  width            : 200px;
+  padding          : 0px;
+  border-collapse  : collapse;
+  border-spacing   : 0px;
+  margin-bottom    : 10px;
+}
+
+table.contentpane {
+  width            : 100%;
+  padding-left     : 5px;
+  padding-right    : 5px;
+  border-spacing   : 0px;
+  margin-bottom    : 5px;
+}
+
+table.contentpaneopen {
+  width            : 95%;
+  padding-left     : 5px;
+  padding-right    : 5px;
+  border-spacing   : 0px;
+  margin-bottom    : 5px;
+}
+
+.pollstableborder{
+  border-color     : #666666;
+}
+
+.contentheading, .componentheading {
+  font-size        : 12px;
+  font-weight      : bold;
+  line-height      : 31px;
+  text-align       : left;
+  color            : #000000;
+  width            : 100%;
+  padding-left     : 35px;
+  background       : transparent url(../images/contentheading.jpg)  bottom left no-repeat;
+}
+
+#title {
+  font-family      : Verdana, Geneva, Arial, Helvetica, sans-serif;
+  font-weight      : bold;
+  text-transform   : uppercase;
+  text-indent      : 8px;
+  font-size        : 30px;
+  text-align       : right;
+  color            : #FFFFFF;
+  padding-right	   : 100px;
+}
+
+.title a:link, .title a:visited {
+  font-size        : 20px;
+  color            : #FFFFFF;
+  text-decoration  : none;
+  font-weight      : bold;
+}
+
+.title a:hover {
+  font-size        : 20px;
+  color            : #FFFFFF;
+  text-decoration  : none;
+  font-weight      : bold;
+}
+
+.ontab {
+  border-left      : 1px solid #404040;
+  text-align       : center;
+  font-weight      : bold;
+  color            : #333333;
+  padding          : 5px;
+  cursor           : hand;
+  line-height      : 40px;
+}
+
+.offtab {
+  border-left      : 1px solid #404040;
+  text-align       : center;
+  color            : #666666;
+  font-weight      : normal;
+  padding          : 5px;
+  cursor           : hand;
+   line-height     : 40px;
+}
+
+.tabpadding {
+ border-left       : 1px solid #404040;
+}
+
+.pagetext {
+  visibility       : hidden;
+  position         : relative;
+  top              : -10;
+  background-color : #FFFFFF;
+  display          : none;
+}
+
+.footer {
+  font-family      : Verdana, Geneva, Arial, Helvetica, sans-serif;
+  color            : #FFFFFF;
+  font-size        : 10px;
+  color            : #FFFFFF;
+  font-weight      : normal;
+}
+
+.footer a:link, .footer a:visited {
+  font-size        : 11px;
+  color            : #FFFFFF;
+  text-decoration  : none;
+  font-weight      : bold;
+}
+
+.footer a:hover {
+  font-size        : 11px;
+  color            : #000000;
+  text-decoration  : none;
+  font-weight      : bold;
+}
+
+.line_left {
+		background: transparent url(../images/line_left.jpg) top right repeat-y;
+}
+
+.down_middle {
+	height:60px;
+		background: transparent url(../images/bottom_middle.jpg) top center repeat-x;
+}
+
+.down_left {
+		background: transparent url(../images/bottom_left.jpg) top right no-repeat;
+}
+
+.down_right {
+		background: transparent url(../images/bottom_right.jpg) top left no-repeat;
+}
+
+.line_right {
+	width:37px;
+	background: transparent url(../images/line_right.jpg) top left repeat-y;
+}
+
+.top_right {
+	background: transparent url(../images/top_right.jpg) top left no-repeat;
+    height:50px;
+}
+
+.top_left {
+	background: transparent url(../images/top_left.jpg) top right no-repeat;
+    height:50px;
+}
+
+.top_middle {
+    background: transparent url(../images/top_middle.jpg) top center no-repeat;
+	height:50px;
+}
+
+.top {
+    width:980px;
+    height:169px;
+	background: transparent url(../images/header.jpg)  top left no-repeat;
+}
+
+.line_left_top {
+	background: transparent url(../images/line_left_top.jpg)  bottom left repeat-y;
+}
+
+.line_right_top {
+	background: transparent url(../images/line_right_top.jpg)  bottom right repeat-y;
+}
+
+ul#mainlevel-nav{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	font-size: 0.8em;
+}
+
+ul#mainlevel-nav li{
+	background-image  : none;
+	float             : left;
+	margin            : 0;
+	font-size         : 11px;
+	line-height       : 21px;
+	white-space       : nowrap;
+    display           : block;
+    padding-left      : 0px;
+    padding-right     : 0px;
+    width             : auto !important;
+    font-size         : 11px;
+}
+
+ul#mainlevel-nav li a{
+	display          : block;
+	text-decoration  : none;
+	color            : #000000;
+    font-size        : 14px;
+    display          : block;
+    padding-left     : 16px;
+    padding-right    : 15px;
+	padding-bottom   :15px;
+    text-decoration  : none;
+}
+
+#buttons>ul#mainlevel-nav li a { width: auto; }
+
+	ul#mainlevel-nav li a:hover
+{
+    color            : #FAEE00;
+}
+
+#banner{
+    padding-left     :300px;
+}
+
+.button {
+    font             :Arial, Helvetica, sans-serif;
+    font-size        :10px;
+    color            :#000000;
+    background-color :#FFFFFF;
+    border           :1px solid #000000;
+}
+
+/* Modules */
+
+#leftcol div.module, #rightcol-normal div.module {
+    width            : 200px;
+    background       : transparent url(../images/mod_middle.jpg) left repeat-y;
+    text-align       : center;
+}
+
+#leftcol div.module div, #rightcol-normal div.module div {
+    width            : 200px;
+    background       : transparent url(../images/mod_top.jpg) top left no-repeat;
+    padding-top      : 2px;
+}
+
+#leftcol div.module div div, #rightcol-normal div.module div div {
+    width            : 200px;
+    background       : transparent url(../images/mod_bottom.jpg)  bottom left no-repeat;
+    padding-bottom   : 10px;
+}
+
+#leftcol div.module div div div,#rightcol-normal div.module div div div{
+    width            : 200px;
+    padding-left     : 5px;
+    padding-right    : 10px;
+    padding-top      : 8px;
+    background       : transparent;
+    padding-bottom   : 10px;
+    font-size        : 12px;
+}
+
+#leftcol div.module div div div div, #rightcol-normal div.module div div div div{
+    padding          : 0px;
+    margin           : 0px;
+    width            : 140px;
+}
+
+div.module h3 {
+    font-size       : 14px;
+    color           : #000000;
+    width           : 200px;
+    font-weight     : bold;
+    margin          : 0px;
+    padding         : 0px;
+    margin-bottom   : 10px;
+    padding-top     : 3px;
+}

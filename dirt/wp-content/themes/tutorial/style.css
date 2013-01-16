@@ -1,0 +1,120 @@
+/*
+Theme Name: Tutorial
+Theme URI: http://127.0.0.1/dirt
+Description: Template zum WordPress Tutorial auf http://wordpress.lernenhoch2.de
+Author: Michael, Kenny Greulich
+Author URI: http://127.0.0.1/dirt
+*/
+* {
+	margin: 0px auto;
+	padding: 0px;
+}
+
+html {
+	margin: 0px !important;
+	padding: 0px !important;
+}
+
+body {
+	background: url(background.jpeg) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+ul#navigation, ul#navigation li {
+	list-style: none;
+}
+#header {
+
+}
+ul#navigation {
+	width: 440px;
+	position: fixed;
+	left: 100px;
+	top: 0px;		
+}
+
+ul#navigation li {
+	width: 109px; 
+	height: 109px;
+	background: #363a3d;
+	float: left;
+	margin-right: 1px;
+}
+
+ul#navigation li a {
+	height: 109px;
+	width: 109px;
+	color: white;
+	text-decoration: none;
+	text-align: center;
+	padding-top: 75px;
+	display: block;
+	font-family: 'Helvetica', arial, sans-serif;
+	font-size: 13px;
+	text-transform: uppercase;
+}
+
+#main
+{
+	overflow: scroll;
+	margin-top: 70px;
+	width: 600px;
+}
+
+#footer
+{
+
+}
+
+.clear {
+	clear: both;	
+}
+
+.post {
+	border: 1px solid white;
+	background: white;
+	margin-bottom: 20px;
+	text-align: left;
+	padding: 20px;
+}
+
+.post h2 a {
+	font-size: 16px;
+	font-family: 'Helvetica', sans-serif;
+	font-weight: normal;
+	color: black;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+.post p {
+	text-align: justify;
+	font-family: Helvetica, sans-serif;
+	font-size: 12px;
+	color: #5B5B5B;
+	padding: 10px 0px 0px 0px;
+}
+.post-meta-data {
+	padding-bottom: 10px;
+}
+.post-meta-data a {
+	font-family: Helvetica, sans-serif;
+	font-size: 11px;
+	color: #5B5B5B;
+	text-decoration: none;
+}
+
+.more-link {
+	margin-top: 10px;
+	display: block;
+	border-top: 1px solid black;
+	padding: 10px 0px 0px 0px;
+	font-family: 'Helvetica', sans-serif;
+	font-weight: 100;
+	font-size: 16px;
+	color: #5B5B5B;
+	text-decoration: none;
+}
