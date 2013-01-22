@@ -1,0 +1,66 @@
+body {
+	margin: 0px auto;
+}
+
+.clear {
+	float: none;
+	display: block;
+}
+
+#logo {
+	background-image: url('../images/mcdonalds.png');
+	width: 215px;
+	height: 219px;
+	margin: 0px auto;
+}
+
+#wrapper {
+	width: 900px;
+	margin: 400px auto;
+}
+
+ul#menu {
+	width: 974px;
+	margin: 20px auto;
+}
+ul#menu, ul#menu li {
+	list-style: none;
+}
+
+ul#menu li {
+	float: left;
+	margin-right: 30px;
+	height: 63px;
+	color: #fff;
+	padding: 17px 0.9375em 17px 0.875em;
+	line-height: 25px;
+	font-size: 30px;
+	width: 240px;
+	font-family: "Arial Black";
+	border-radius: 7px 7px 0px 0px;
+}
+
+ul#menu li img {
+	width: 294px;
+	margin-left: -26px;
+	margin-top: 29px;
+	height: 240px;
+    filter: gray;
+    -webkit-filter: grayscale(100%); 
+}
+
+ul#menu li {
+	cursor: pointer;
+}
+
+li.firstTeaser {
+	background-color: #fdc400;
+}
+
+li.secondTeaser {
+	background-color: #489edb;
+}
+
+li.thirdTeaser {
+	background-color: #c2c72c;
+}
